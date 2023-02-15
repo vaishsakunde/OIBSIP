@@ -1,34 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Temperature Conversion</title>
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+    <!--Stylesheet-->
     <link rel="stylesheet" href="style.css">
-    <title>Shivaji Maharaj Tribute Page</title>
 </head>
 <body>
-    <div class="container">
-        <div class="jumbotron">
-           <h1 class="text-primary text-center">Chhatrapati Shivaji Maharaj</h1>
-            <h2 class="text-center"><em>The Great Indian Warrior</h2>
-                <img class="img-thumbnail" src="shivajimaharaj.jpg" alt="shivajimaharaj-img"/>     
-                <div style="text-align: center">
-                   <p>
-                        Shivaji maharaj was entitled Shakakarta ("founder of an era") and Chhatrapati ("sovereign"). He also took the title of Haindava Dharmodhhaarak (protector of the Hindu faith) and Kshatriya Kulavantas.Kshatriya is one of the four varnas of Hinduism and kulavantas means the 'head of the kula, or race'</p>
-                  <p>
-                    Chhatrapati Shivaji Maharaj born on 19 February 1630 at the Shivneri Fort, Maharashtra.</p>
-                    <p>
-                    Shivaji Maharaj carved out an enclave from the declining Adilshahi sultanate of Bijapur that formed the genesis of the Maratha Empire.</p>
-                    <p>
-                    In 1674, he was formally crowned the Chhatrapati of his realm at Raigad Fort. Over the course of his life, Shivaji Maharajengaged in both alliances and hostilities with
-                    the Mughal Empire, the Sultanate of Golkonda, Sultanate of Bijapur and the European colonial powers.</p>
-                    <p>
-                    His military forces expanded the Maratha sphere of influence, capturing and building forts, and forming a Maratha navy.
-                </p>
-                    Chhatrapati Shivaji Maharaj is
-                   </p>
-                </div>
-                     </div>
-                </div>
+    <div class="wrapper">
+        <div class="container">
+            <label for="celsius">Celsius</label>
+            <input type="number" id="celsius" oninput= "celToFar()">
+        </div>
+        <div class="container">
+            <label for="fahrenheit">Fahrenheit</label>
+            <input type="number" id="fahrenheit" oninput = "farToCel()">
+        </div>
     </div>
-    
+    <script src="script.js"></script>
 </body>
 </html>

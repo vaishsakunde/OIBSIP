@@ -1,27 +1,40 @@
-body {
-  text-align: center;
-  margin:auto;
-  width: 100%;
-  padding: 50px;
-  font-family: 'Poppins', sans-serif;
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;
+    font-size: 18px;
 }
-.jumbotron {
-  background-image: linear-gradient(#FF7722, #fdcd3b);
-  color: #fff;
-  text-align: center;
-  margin: 0px;
-  background-color: #fff;
+body{
+    background-color: #d46aa4;
 }
-h1 {
-  color: #fff;
+.wrapper{
+    width: 450px;
+    background-color: #ffffff;
+    padding: 70px 40px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    box-shadow: 0 20px 25px rgba(0,0,0,0.25);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
 }
-h2 {
-  background-color: #fff;
+.container{
+    width: 45%;
 }
-p {
-  width: 400px; 
-  margin: auto;
-  padding: 20px;
-  border-style: solid;
-  border-radius: 20px;
+input{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid #d2d2d2;
+    outline: none;
+    margin-top: 8px;
+    padding: 0 10px;
+}
+input:focus{
+    border-color: #3164ff;
 }
